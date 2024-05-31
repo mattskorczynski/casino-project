@@ -1,0 +1,69 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #2d2d2d;
+    color: white;
+    margin: 0;
+}
+
+.container {
+    text-align: center;
+    background-color: #4a4a4a;
+    padding: 20px;
+    border-radius: 10px;
+    width: 300px;
+}
+
+.hand {
+    margin: 10px 0;
+}
+
+.cards {
+    display: flex;
+    justify-content: center;
+}
+
+.cards img {
+    margin: 0 5px;
+    width: 50px;
+}
+
+#message {
+    margin-top: 20px;
+}
+
+button {
+    margin: 5px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    background-color: #ffcc00;
+    color: black;
+    cursor: pointer;
+}
+
+button:disabled {
+    background-color: #aaa;
+    cursor: not-allowed;
+}
+
+input[type="number"] {
+    padding: 5px;
+    border-radius: 5px;
+    border: none;
+}
+
+.back-button {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    padding: 10px;
+    background-color: #ffcc00;
+    color: black;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
